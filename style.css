@@ -1,0 +1,29 @@
+.icon {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(50%, 50%);
+    color: darkblue;
+}
+.icon:hover {
+    color: blueviolet;
+    animation: UpAndDown 2s linear 0s 1;
+}
+
+@keyframes UpAndDown {
+    0% {
+        top: 0%;
+    }
+    25% {
+        top: -3%;
+    }
+    50% {
+        top: 0%;
+    }
+    75% {
+        top: -3%;
+    }
+    100% {
+        top: 0%;
+    }
+}
